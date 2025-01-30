@@ -1,2 +1,10 @@
-# https-github.com-code-corhuila-analisis-sistemas-2024-b
-https://github.com/code-corhuila/analisis-sistemas-2024-b
+# Análisis de Sistemas
+
+**Semestre:** 2024-B
+
+## Horario
+
+| Inicio  | Fin    | Lunes                            | Martes | Miércoles                       | Jueves | Viernes |
+|---------|--------|---------------------------------|--------|---------------------------------|--------|---------|
+| 6:30 pm | 8:10 pm | **Cod. 82749** Prog. 90 Grupo 1 |        |                                 |        |         |
+| 8:15 pm | 10:00 pm |                                |        | **Cod. 82712** Prog. 90 Grupo 1 |        |         |
