@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="Page-1" id="NNdnNHrQ2SSq4oMDmQyA">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-1" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Catálogo de Productos&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-2" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Carrito de Compra&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="335" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-3" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Proceso de Pago&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-5" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Gestión de Usuarios&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-6" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Notificaciones&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-8" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Panel de Administración&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="120" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-9" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Seguridad y Accesibilidad&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-10" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Pruebas y Optimización&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="115" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-11" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Despliegue y Mantenimiento&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="345" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-12" value="&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span&gt;Servicios de Valor Agregado&lt;/span&gt;&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="230" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-13" value="Must Have (Debe Tener)" style="text;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-14" value="Should Have (Debería Tener)" style="text;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-15" value="Could Have (Podría Tener)" style="text;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WwPmh_wZ90eYd8ArStQ-16" value="Won&#39;t Have (No Tendrá en esta versión)" style="text;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
