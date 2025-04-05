@@ -1,0 +1,29 @@
+@startuml
+
+class Persona{
+    +id : int
+    +nombre : String
+    +apellido : String
+    +fechaNacimiento : Date
+    +correo : String
+    +telefono : String
+}
+
+class Rol{
+    +id : int
+    +nombre : String
+    +descripcion : String
+}
+
+class Usuario{
+    +id : int
+    +usuario : String
+    +contrasena : String
+    +personaId : Persona
+    +rolId : Rol
+}
+
+Usuario *-- Persona
+Usuario *-- Rol
+
+@enduml
