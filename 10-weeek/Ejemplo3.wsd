@@ -1,0 +1,33 @@
+@startuml
+interface Calcular{
+    +CalcularArea() : double
+    +CalcularPerimetro() : double
+}
+
+abstract class ObtenerCalculo implements Calcular{
+    -area: double
+    -perimetro: double
+    +ObtenerArea() : double
+    +ObtenerPerimetro() : double
+
+}
+
+class Cuadrado extends ObtenerCalculo{
+    -lado: double
+    +CalcularArea() : double
+    +CalcularPerimetro() : double
+}
+
+class Rectangulo extends ObtenerCalculo{
+    -base: double
+    -altura: double
+    +CalcularArea() : double
+    +CalcularPerimetro() : double
+}
+class Circulo extends ObtenerCalculo{
+    -radio: double
+    +CalcularArea() : double
+    +CalcularPerimetro() : double
+}
+
+@enduml

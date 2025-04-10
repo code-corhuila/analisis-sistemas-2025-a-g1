@@ -1,0 +1,82 @@
+@startuml
+package "DatosBasicos" {
+    interface T{
+        +Registrar() : T
+        +Actualizar() : void
+        +Eliminar() : void
+        +Consultar() : List<T>
+        +Buscar() : Optional<T>
+    }
+    class Persona implements T{
+        -id: int
+        +tipoDocumento: String
+        #numeroDocumento: String
+        +nombre: String
+        +fechaNacimiento: Date
+        +direccion: String
+        +telefono: String
+        +email: String
+        +nacionalidad: String
+    }
+
+    class Estudiante  implements T{
+        -id: int
+        +matricula: String
+        +programa: String
+        +personaId:Persona
+    }
+    class Profesor implements T{
+        -id: int
+        +tipoContrato: String
+        +fechaInicio: Date
+        +personaId:Persona
+    }
+
+    Persona --* Estudiante
+    Persona --* Profesor
+}
+
+' package "DatosAcademicos" {
+'     class Curso{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'         +creditos: int
+'         +horario: String
+'     }
+
+'     class Materia{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'         +creditos: int
+'     }
+
+'     class Asignacion{
+'         -id: int
+'         +fechaInicio: Date
+'         +fechaFin: Date
+'     }
+' }
+
+' package "DatosUbicacion" {
+'     class Ciudad{
+'         -id: int
+'         +nombre: String
+'         +codigoPostal: String
+'     }
+
+'     class Departamento{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'     }
+
+'     class Pais{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'     }
+' }
+
+@enduml

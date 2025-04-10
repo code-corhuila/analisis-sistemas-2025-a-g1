@@ -1,0 +1,85 @@
+@startuml
+package "DatosBasicos" {
+    class Persona{
+        -id: int
+        +tipoDocumento: String
+        #numeroDocumento: String
+        +nombre: String
+        +fechaNacimiento: Date
+        +direccion: String
+        +telefono: String
+        +email: String
+        +nacionalidad: String
+        +RegistroPersona() : T
+        +ActualizarPersona() : void
+        +EliminarPersona() : void
+        +ConsultarPersona() : List<Persona>
+        +BuscarPersona() : OPtional<Persona>
+    }
+
+    class Estudiante extends Persona{
+        -id: int
+        +matricula: String
+        +programa: String
+        +RegistroEstudiante() : T
+        +ActualizarEstudiante() : void
+        +EliminarEstudiante() : void
+        +ConsultarEstudiante() : List<Estudiante>
+        +BuscarEstudiante() : Optional<Estudiante>
+    }
+    class Profesor extends Persona{
+        -id: int
+        +tipoContrato: String
+        +fechaInicio: Date
+        +RegistrarProfesor() : T
+        +ActualizarProfesor() : void
+        +EliminarProfesor() : void
+        +ConsultarProfesor() : List<T>
+        +BuscarProfesor() : Optional<T>
+    }
+}
+
+' package "DatosAcademicos" {
+'     class Curso{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'         +creditos: int
+'         +horario: String
+'     }
+
+'     class Materia{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'         +creditos: int
+'     }
+
+'     class Asignacion{
+'         -id: int
+'         +fechaInicio: Date
+'         +fechaFin: Date
+'     }
+' }
+
+' package "DatosUbicacion" {
+'     class Ciudad{
+'         -id: int
+'         +nombre: String
+'         +codigoPostal: String
+'     }
+
+'     class Departamento{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'     }
+
+'     class Pais{
+'         -id: int
+'         +nombre: String
+'         +codigo: String
+'     }
+' }
+
+@enduml
