@@ -1,0 +1,10 @@
+@startuml
+    interface crud {
+        Save(T entity) : T
+        Update(T entity, Long id) : void
+        All() : List<T entity>
+        FindById(Long id) : Optional<T entity>
+        DeleteLogic(Long id) : void
+        Delete(Long id) : void
+    }
+@enduml

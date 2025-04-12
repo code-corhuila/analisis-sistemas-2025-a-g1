@@ -1,0 +1,33 @@
+@startuml
+interface contrato{
+   Area() : Double
+   Perimetro() : Double
+}
+
+abstract class Figura implements contrato{
+   -area: Double
+   -perimetro : Double
+   -mensaje : String
+   +getArea() : Double
+   +getPerimetro() : Double
+}
+
+class Cuadrado extends Figura{
+   -lado: Double
+   +getArea() : Double
+   +getPerimetro() : Double
+}
+
+class Rectangulo extends Figura{
+   -base: Double
+   -altura: Double
+   +getArea() : Double
+   +getPerimetro() : Double
+}
+
+class Circulo extends Figura{
+   -radio: Double
+   +getArea() : Double
+   +getPerimetro() : Double
+}
+@enduml

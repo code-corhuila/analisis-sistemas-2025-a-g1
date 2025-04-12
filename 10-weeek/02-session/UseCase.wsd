@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+actor Cliente as c
+actor Vendedor as v
+
+package Restaurant {
+  usecase "Registrar clientes" as UC1
+  usecase "Registrar productos" as UC2
+  usecase "Generar facturas" as UC3
+  usecase "Ver historial de facturas" as UC4
+  usecase "Ver historial de facturas cliente" as UC5
+  usecase "Agregar productos carro compra" as UC6
+  usecase "Generar la factura" as UC7
+  usecase "Productos de la factura" as UC8
+  usecase "Realizar pago" as UC9
+}
+' fc --> UC4
+v --> UC1
+v --> UC2
+v --> UC3
+v --> UC4
+v --> UC5
+c --> UC5
+c --> UC6
+(UC6) .> (UC7) : extends
+(UC7) <. (UC8) : includes
+(UC7) <. (UC9) : includes
+@enduml
